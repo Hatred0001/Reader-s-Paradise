@@ -1,0 +1,5 @@
+website background- #FBFFEF
+
+font family used throughout the website's ui - poppins'
+
+color used in mobile menu and join button- #3B3BFF

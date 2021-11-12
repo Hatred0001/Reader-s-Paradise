@@ -95,7 +95,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
     height: auto;
@@ -125,7 +125,7 @@ body {
   }
 
 }
-
+*/
 
   
 /*Nav Bar mobile responsive CSS end*/
@@ -206,7 +206,7 @@ body {
   position: relative;
   background: #0d1117;
   height: 2100px;
-  display: flex;
+  width: 100%;
   top: 100vh;
 }
 
@@ -214,19 +214,8 @@ body {
   font-size: 1.2em;
 }
 .server-info-1 article{
-  /*  leverage cascade for cross-browser gradients  */
-  background: radial-gradient(
-    hsl(20 100% 50%), 
-    hsl(100 100% 50%) 
-  ) fixed;
-  background: conic-gradient(
-    hsl(220 100% 10%), 
-    hsl(210 100% 80%), 
-    hsl(212 90% 60%) 
-  ) fixed;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-left: 10%;
+  color: rgba(90, 197, 255, 0.857);
+  margin-left: 10%
 } 
 
 .server-info-1 .h-wrp{
@@ -234,7 +223,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   line-height: 1;
-  margin-top: 30%;
+  padding-top: 10rem;
   padding-bottom: 10px;
 }
 
@@ -259,7 +248,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   line-height: 1;
-  margin-top: 30%;
+  padding-top: 35rem;
   padding-bottom: 10px;
 }
 
@@ -286,7 +275,6 @@ body {
   position: relative;
   background:white;
   height: 2800px;
-  display: flex;
   top: 50vh;
 }
 
@@ -299,10 +287,8 @@ body {
 .faq-content h1{
   font-size: 6em;
   font-family: 'Poppins', sans-serif;
-  margin-left: 14rem;
-}
-
-.faq-content article{
+  margin-left: 8rem;
+  padding-top: 8rem;
 }
 
 .faq-content h2{
@@ -322,14 +308,14 @@ body {
   margin-left: -3em;
 }
 
-.writers{
+/*.writers{
   box-shadow: 0 0 100px rgba(0,0,0,0.4);
   margin: 0;
   padding-bottom: 40px;
   position: relative;
   background: #0d1117;
   height: 1000px;
-  display: flex;
+  display: ;
   top: 50vh;
 }
 
@@ -580,17 +566,13 @@ body {
 
 .book-3:hover .fadedbox {
   opacity: 0.8;
-}
+}*/
 
 .partners{
-  box-shadow: 0 0 100px rgba(0,0,0,0.4);
-  margin: 0;
-  padding-bottom: 40px;
+  margin-top: -5rem;
   position: relative;
-  background: white;
-  height: 2290px;
-  display: flex;
-  top: 50vh;
+  background: #0d1117;
+  height: 2200px;
 }
 
 .partner-servers{
@@ -598,10 +580,12 @@ body {
 }
 
 .partner-servers h1{
-  font-size: 4em;
+  font-size: 3em;
   font-family: 'Poppins', sans-serif;
-  margin-top: 5rem;
-  margin-left: 35rem;
+  padding-top: 10rem;
+  margin-top: 35rem;
+  margin-left: 40rem;
+  color: rgb(90, 197, 255);
 }
 
 .partner-servers h2{
@@ -612,9 +596,25 @@ body {
   text-align: justify;
   line-height: 1.5;
   max-inline-size: 50ch;
+  color: rgba(90, 197, 255, 0.748);
+  font-weight: lighter;
 }
 
 .server{
+  border-radius: 30px;
+  max-width: 30em;
+  margin-top: 10rem;
+  margin-left: 40rem;
+}
+
+.server-2{
+  border-radius: 30px;
+  max-width: 30em;
+  margin-top: 10rem;
+  margin-left: 40rem;
+}
+
+.server-3{
   border-radius: 30px;
   max-width: 30em;
   margin-top: 10rem;
@@ -678,4 +678,10 @@ footer{
 
 html{
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1324px) {
+    .faq-content{
+      width: 100%;
+    }
 }

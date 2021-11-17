@@ -564,6 +564,19 @@ html{
     }
 }
 
+@media screen and (max-width: 1280px) {
+  .book{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .top-content{
+    margin: auto;
+  }
+  
+}
+
 @media screen and (max-width: 1088px) {
   .reading-book-vect{
     visibility: hidden;
@@ -713,6 +726,7 @@ html{
 
   .faq{
    margin-left: 15rem;
+   font-size: 1.3rem;
   }
 
   .reading-book-vect{
@@ -729,14 +743,22 @@ html{
 
   .server-info-1{
     width: 145%;
+    font-size: 1.3rem;
   }
 
   .faq-content{
     width: 145%;
+    height: 3000px;
   }
 
   .partners{
     width: 145%;
+    font-size: 1.2rem;
+    margin-right: 10rem;
+  }
+
+  .partner-servers{
+    margin-right: 5rem;
   }
 }
 
@@ -1197,13 +1219,30 @@ html{
 
   .server-info-1{
     width: 250%;
+    font-size: 1.3rem;
+    line-height: 2;
   }
 
   .faq-content{
     width: 250%;
+    font-size: 1.3rem;
+    height: 3300px;
+    line-height: 1.5;
+
+  }
+
+  .faq{
+    margin-right: 5rem;
   }
 
   .partners{
     width: 250%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    height: 2500px;
   }
+.partner-servers{
+margin-right: 5rem;
+}
+
 }

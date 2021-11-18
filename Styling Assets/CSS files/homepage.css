@@ -381,8 +381,14 @@ body {
   color: white;
 }
 
+.height{
+  padding-bottom: 40px;
+  position: relative;
+  background: white;
+  height: 2100px;
+  width: 100%;
+}
 .wrapper-2 {
-  height: 1500px;
   display:flex;
   flex-wrap: wrap;
   width: 50%;
@@ -402,6 +408,7 @@ body {
   height: 350px;
   border-radius: 15px;
   padding: 1.5rem;
+  margin-top: 3rem;
   background: white;
   position: relative;
   transition: 0.4s ease-out;
@@ -477,7 +484,7 @@ body {
 }
 
 @media screen and (max-width: 1030px) {
-.wrapper{
+.wrapper-2{
   display: grid;
   
   
@@ -561,6 +568,16 @@ html{
 
     .faq{
      margin-left: 25rem;
+    }
+
+    .wrapper-2{
+      margin-left: 25rem;
+    }
+
+    .writers-headline{
+      font-size: 2.5rem;
+      margin-top: 5rem;
+      text-align: justify;
     }
 }
 
@@ -678,6 +695,10 @@ html{
 
   .partners{
     width: 125%;
+  }
+
+  .writers-headline{
+    margin-left: -6rem;
   }
 
 }
@@ -812,6 +833,10 @@ html{
   .partners{
     width: 165%;
   }
+
+  .wrapper-2{
+    margin-left: 20rem;
+  }
 }
 
 @media screen and (max-width: 537px) {
@@ -889,6 +914,11 @@ html{
 
   .partners{
     width: 188%;
+  }
+
+  .card{
+    height: 500px;
+     width: 400px;
   }
 }
 

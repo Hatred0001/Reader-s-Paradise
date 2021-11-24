@@ -148,7 +148,7 @@ body {
 /*nav bar css end*/
 
 .parallax-effect{
-  position: relative;
+  position: ;
 }
 .top-content{
     margin: 0;
@@ -275,8 +275,8 @@ body {
   padding-bottom: 40px;
   position: relative;
   background:white;
-  height: 2800px;
-  top: 50vh;
+  height: 3000px;
+  top: 60vh;
 }
 
 .faq{
@@ -383,9 +383,9 @@ body {
 
 .height{
   padding-bottom: 40px;
-  position: relative;
+  position: ;
   background: white;
-  height: 2100px;
+  height: 1100px;
   width: 100%;
 }
 .wrapper-2 {
@@ -458,12 +458,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .card .info h1 {
-  margin: 0px;
+  margin:0;
 }
 .card .info p {
   letter-spacing: -0.8px;
   font-size: 16px;
-  margin-top: 8px;
+  margin-top: 1px;
   font-weight: 2px
 }
 .card .info button {
@@ -502,8 +502,6 @@ body {
   border: 0.1px solid transparent;
   cursor: pointer;
   background-color: rgb(0, 135, 245);
-  margin-top: 17rem;
-  margin-left: 2rem;
 }
 
 .back-to-top a{
@@ -517,20 +515,19 @@ body {
 
 .credits-h{
   font-family: 'Poppins', sans-serif;
-  margin-left: 55rem;
-  margin-top: -2rem;
+
 }
 
 .credits{
   font-family: 'Poppins', sans-serif;
-  margin-left: 55rem;
+  
 }
 
 footer{
   font-family: 'Poppins', sans-serif;
-  margin-left: 50rem;
-  margin-top: 0rem;
-  font-size: 0.8em;
+  text-align: center;
+  padding-top: 10rem;
+  padding-left: 18rem;
 }
 
 html{
@@ -588,8 +585,8 @@ html{
     height: 0;
   }
 
-  .top-content{
-    margin: auto;
+  footer{
+    padding-left: 9em;
   }
   
 }
@@ -618,6 +615,11 @@ html{
   .partners{
     width: 108%;
   }
+
+  
+  footer{
+    padding-left: 3em;
+  }
 }
 
 @media screen and (max-width: 1028px) {
@@ -643,6 +645,10 @@ html{
 
   .partners{
     width: 110%;
+  }
+
+  footer{
+    padding-left: -10rem;
   }
 }
 
@@ -710,6 +716,10 @@ html{
 
   .faq{
    margin-left: 18rem;
+  }
+
+  footer{
+    margin-left: -8rem;
   }
 }
 
@@ -1000,31 +1010,6 @@ html{
   }
 }
 
-@media screen and (max-width: 431px) {
-  .reading-book-vect{
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
-  .thinking-vect{
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
-  .server-info-1{
-    width: 210%;
-  }
-
-  .faq-content{
-    width: 210%;
-  }
-
-  .partners{
-    width: 210%;
-  }
-}
 
 @media screen and (max-width: 422px) {
   .reading-book-vect{
@@ -1052,57 +1037,6 @@ html{
   }
 }
 
-@media screen and (max-width: 410px) {
-  .reading-book-vect{
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
-  .thinking-vect{
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
-  .server-info-1{
-    width: 220%;
-  }
-
-  .faq-content{
-    width: 220%;
-  }
-
-  .partners{
-    width: 220%;
-  }
-}
-
-@media screen and (max-width: 431px) {
-  .reading-book-vect{
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
-  .thinking-vect{
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
-  .server-info-1{
-    width: 210%;
-  }
-
-  .faq-content{
-    width: 210%;
-  }
-
-  .partners{
-    width: 210%;
-  }
-}
 
 @media screen and (max-width: 420px) {
   .reading-book-vect{
